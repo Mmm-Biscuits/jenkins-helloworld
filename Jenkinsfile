@@ -33,7 +33,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('kill docker') {
       steps {
         sh 'sh kill.sh'
       }
